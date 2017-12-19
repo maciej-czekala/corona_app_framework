@@ -1,7 +1,10 @@
 # corona_ui_framework
 documentation for corona ui framework plugin
 
-How To:
+Examples:
+
+https://github.com/maciej-czekala/corona_business_app_base_template
+
 
 -- build.settings
 ``````lua
