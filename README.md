@@ -13,6 +13,9 @@ plugins = {
     }
 ``````
 
+
+Please find all related information is specyfic lua files.
+
 -- main.lua
 ``````lua
 display.setDefault( "background", 1, 1, 1 )
@@ -27,25 +30,10 @@ app.init({
 	})
 
 
-app.goTo("moduleName")
-app.goBack() -- goes  bask to last scene
-app.loadFragment("moduleName") -- loads dedicated fragment and returns it
-
 for k,v in pairs(app.deviceUtil) do
     print(k,v)
 end
 
-
--- MODEL -- 
-local my_model = app.Model({item1 = "string, item2 = "number", item3 = "boolean"})
-
-my_model.setBinding("item1", -- fires callback when model value change
-	function(value)
-		print(value)
-	end)
-
-my_model.set("item1", "hello")
-print( my_model.get("item1") )
 
 
 ``````
