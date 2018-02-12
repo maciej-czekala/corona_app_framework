@@ -20,10 +20,10 @@ Please find all related information is specyfic lua files.
 ``````lua
 display.setDefault( "background", 1, 1, 1 )
 -- Load plugin library
-app = require ("plugin.ui_framework")
+app = require ("plugin.app_framework")
 app.init({
 	enable = {
-		masterTab = true, --required ui framework to work.
+		masterTab = true, --requires ui framework to work.
 		api = true,
 		strings = true,
 	}
